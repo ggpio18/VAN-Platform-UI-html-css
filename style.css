@@ -180,4 +180,53 @@ body {
     border-radius: 8px;
 }
 
+.container .nav>button#menuToggle{
+    display: flex;
+    padding: 6px;
+    font-size: 22px;
+    display: none;
+}
+
+.container .nav>i{
+    font-size: 20px;
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.container .nav .user-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .nav .user-info img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container .nav .user-info a {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container .nav .user-info a i {
+    font-size: 20px;
+}
+
+.container .nav .user-info p {
+    font-size: 13px;
+}
+
+.container .main {
+    display: flex;
+}
+
+.container .main .content {
+    flex: 9;
+}
+
 

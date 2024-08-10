@@ -22,6 +22,9 @@ body {
     display: flex;
     height: 100vh;
 }
+.skills h5{
+    text-align: center;
+}
 
 .sidebar {
     flex: 1;
